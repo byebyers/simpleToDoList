@@ -13,7 +13,7 @@ var TaskModel = function () {
      addTask: function (task) {
          this.tasks.push({
              taskName: task,
-             taskStatus: 'uncompleted'
+             taskStatus: 'addicted'
          });
          this.addTaskEvent.notify();
      },
